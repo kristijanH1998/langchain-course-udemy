@@ -15,7 +15,7 @@ embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
 
 # initialize vector store
 vectorstore = PineconeVectorStore(
-    index_name="langchain-docs-2026", embedding=embeddings
+    index_name="langchain-docs-2025", embedding=embeddings
 )
 
 # initialize chat model
